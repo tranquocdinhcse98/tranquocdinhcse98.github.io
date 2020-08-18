@@ -8,7 +8,7 @@ class Footer extends React.PureComponent {
             <footer>
                 <div className="footer-container">
                     <div>
-                        <Link to="/home">
+                        <Link to="/">
                             <img src={logo} alt="logo" className="logo"/>
                         </Link>
                     </div>
@@ -16,8 +16,8 @@ class Footer extends React.PureComponent {
                     <div className="footer-menu">
                         <h3>Menu</h3>
                         <ul>
-                            <li><Link to="/home">Home</Link></li>
-                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/my-portfolio">About</Link></li>
                         </ul>
                     </div>
 

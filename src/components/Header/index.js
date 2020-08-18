@@ -51,7 +51,7 @@ class Navigation extends React.PureComponent {
         return (
             <div className="header-container">
                 <button onClick={() => this.topFunction()} className="btn warning" id="topBtn"><i className="fas fa-chevron-up"></i></button>
-                <Link to="/home" className="logo-box">
+                <Link to="/" className="logo-box">
                     <img src={logo} alt="Phook" className="logo"/>
                 </Link>
                 
@@ -61,8 +61,8 @@ class Navigation extends React.PureComponent {
                     </a>
                     <ul className="show-desktop hide-mobile" id="nav">
                         <li id="exit" className="exit-btn hide-desktop"><i className="fas fa-times"></i></li>
-                        <li><Link to="/home" className="nav-link">Home</Link></li>
-                        <li><Link to="/about" className="nav-link">About</Link></li>
+                        <li><Link to="/" className="nav-link">Home</Link></li>
+                        <li><Link to="/my-portfolio" className="nav-link">About</Link></li>
                         {/* <li><Link to="/contact" className="nav-link">Contact</Link></li> */}
                     </ul>
                 </nav>

@@ -37,7 +37,7 @@ class HomePage extends Component {
                   <span className="heading-primary_name">Dinh Tran</span>
                   <span className="heading-primary_job">Web Developer</span>
                 </h3>
-                <Link to="/about" className="btn primary">
+                <Link to="/my-portfolio" className="btn primary">
                   Get more
                 </Link>
               </div>
@@ -58,7 +58,7 @@ class HomePage extends Component {
                     Technology (HCMUT). If you care about me, please click the
                     following button to get more information. Thanks!
                   </p>
-                  <Link to="/about" className="btn info">
+                  <Link to="/my-portfolio" className="btn info">
                     More Info
                   </Link>
                 </div>
