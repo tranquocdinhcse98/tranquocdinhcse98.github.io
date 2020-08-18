@@ -1,0 +1,35 @@
+{
+  "homepage": "https://tranquocdinhcse98.github.io/",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "name": "my-portfolio",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
